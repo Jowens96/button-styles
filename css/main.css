@@ -10,16 +10,21 @@ html {
 div {
   padding: .5rem;
   text-align: center;
+  margin-top: .5em;
 }
 
 .btn {
-  background-color: #000;
+  background-color: #333;
   color: #fff;
   font-size: 1.125rem;
   padding: .4em;
   text-decoration: none;
   border-radius: 8px;
   border-width: 3px;
+}
+
+.btn:hover {
+  background-color: #000;
 }
 
 .btn-subtle {
@@ -32,6 +37,10 @@ div {
   border-width: 3px;
 }
 
+.btn-subtle:hover {
+  background-color: #666;
+}
+
 .btn-ghost {
   background-color: #fff;
   color: #000;
@@ -39,5 +48,140 @@ div {
   padding: .4em;
   text-decoration: none;
   border-radius: 8px;
+  border-style: solid;
   border-width: 3px;
+  border-color: #000;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-color: #666;
+}
+
+.btn-warning {
+  background-color: #f33;
+  color: #fff;
+  font-size: 1.125rem;
+  padding: .4em;
+  text-decoration: none;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.btn-warning:hover {
+  background-color: #933
+}
+
+.btn-small {
+  background-color: #333;
+  color: #fff;
+  font-size: .875rem;
+  padding: .75em;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-small:hover {
+  background-color: #000;
+}
+
+.btn-subtle-s {
+  background-color: #ccc;
+  color: #fff;
+  font-size: .875rem;
+  padding: .75em;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-subtle-s:hover {
+  background-color: #666;
+}
+
+.btn-ghost-s {
+  background-color: #fff;
+  color: #000;
+  font-size: .875rem;
+  padding: .75em;
+  border-radius: 8px;
+  text-decoration: none;
+  border-style: solid;
+}
+
+.btn-ghost-s:hover {
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-color: #666;
+}
+
+.btn-warning-s {
+  background-color: #f33;
+  color: #fff;
+  font-size: .875rem;
+  padding: .75em;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn-warning-s:hover {
+  background-color: #933
+}
+
+.btn-big {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+}
+
+.btn-big:hover {
+  background-color: #000;
+}
+
+.btn-subtle-b {
+  background-color: #ccc;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+}
+
+.btn-subtle-b:hover {
+  background-color: #666;
+}
+
+.btn-ghost-b {
+  background-color: #fff;
+  color: #000;
+  font-size: 1.5rem;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
+  border-style: solid;
+}
+
+.btn-ghost-b:hover {
+  background-color: #666;
+  color: #fff;
+  border-style: solid;
+  border-color: #666;
+}
+
+.btn-warning-b {
+  background-color: #f33;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  text-decoration: none;
 }
