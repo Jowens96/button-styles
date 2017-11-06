@@ -185,3 +185,7 @@ div {
   border-width: 3px;
   text-decoration: none;
 }
+
+.btn-warning-b:hover {
+  background-color: #933
+}
