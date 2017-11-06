@@ -7,10 +7,15 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 div {
   padding: .5rem;
   text-align: center;
-  margin-top: .5em;
+  margin: .5em;
 }
 
 .btn {
@@ -22,6 +27,7 @@ div {
   border-radius: 8px;
   border-width: 3px;
   display: inline-block;
+  margin: 0;
 }
 
 .btn:hover {
@@ -36,6 +42,7 @@ div {
   text-decoration: none;
   border-radius: 8px; */
   border-width: 3px;
+  margin-top: -1em;
 }
 
 .btn-subtle:hover {
