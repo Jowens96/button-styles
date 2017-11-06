@@ -45,10 +45,10 @@ div {
 .btn-ghost {
   background-color: #fff;
   color: #000;
-  font-size: 1.125rem;
+  /* font-size: 1.125rem;
   padding: .4em;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 8px; */
   border-style: solid;
   border-width: 3px;
   border-color: #000;
@@ -64,10 +64,10 @@ div {
 .btn-warning {
   background-color: #f33;
   color: #fff;
-  font-size: 1.125rem;
+  /* font-size: 1.125rem;
   padding: .4em;
   text-decoration: none;
-  border-radius: 8px;
+  border-radius: 8px; */
   border-width: 3px;
 }
 
@@ -76,12 +76,12 @@ div {
 }
 
 .btn-small {
-/*  background-color: #333;
+  /* background-color: #333;
   color: #fff; */
   font-size: .875rem;
-/*  padding: .75em;
+  /* padding: .75em;
   border-radius: 8px;
- text-decoration: none;*/
+  text-decoration: none; */
 }
 
 .btn-small:hover {
