@@ -197,3 +197,19 @@ div {
 .btn-warning-b:hover {
   background-color: #933;
 }
+
+/* random new code starts here */
+
+.continue-btn {
+  background-color: #eb87ba;
+  color: #fff;
+  font-size: 1rem;
+  padding: .6em;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.continue-btn:hover {
+  background-color: #ca4f92;
+  transition: all 0.4s ease 0s;
+}
