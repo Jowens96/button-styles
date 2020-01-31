@@ -213,3 +213,34 @@ div {
   background-color: #ca4f92;
   transition: all 0.4s ease 0s;
 }
+
+.number-btn {
+  display: inline-block;
+  background-color: #eb87ba;
+  color: #fff;
+  font-size: 1rem;
+  height: 30px;
+  width: 30px;
+  padding: .2em;
+  border-radius: 50%;
+  text-decoration: none;
+
+}
+
+.number-btn:hover {
+  background-color: #ca4f92;
+  transition: all 0.4s ease 0s;
+}
+
+.date-time-btn {
+  background-color: #eb87ba;
+  color: #fff;
+  font-size: 1rem;
+  padding: .6em;
+  border-radius: 14px;
+  text-decoration: none;
+}
+
+.date-time-btn:hover {
+  background-color: #ca4f92;
+}
